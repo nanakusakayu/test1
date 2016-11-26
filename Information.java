@@ -25,6 +25,10 @@ public class Information implements Serializable {
         this.phone = phone;
         this.cellular = cellular;
     }
+	
+	public Long getTest(){
+		return test;
+	}
 
     // アクセサメソッド
     public Long getId() {

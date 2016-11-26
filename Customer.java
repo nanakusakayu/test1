@@ -24,6 +24,9 @@ public class Customer implements Serializable {
         this.name = name;
         this.info = info;
     }
+	
+	//Gitのマージテスト
+	public Test(){}
 
     // アクセサメソッド
     public String getCustomerId() {
