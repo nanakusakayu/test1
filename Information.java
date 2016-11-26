@@ -23,8 +23,12 @@ public class Information implements Serializable {
     public Information(String address, String phone, String cellular) {
         this.address = address;
         this.phone = phone;
-        this.cellular = cellular;
+        this.cellular = cellularF;
     }
+	
+	public Long getTest(){
+		return test;
+	}
 
     // アクセサメソッド
     public Long getId() {
